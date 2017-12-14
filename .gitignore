@@ -1,0 +1,14 @@
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/.apt_generated/
+/target/
+.classpath
+.settings
+.factorypath
+.project
+/upload-temp
+/upload-images
