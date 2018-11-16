@@ -2,11 +2,8 @@ package com.rangers.manage.apifunc.handler;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-<<<<<<< HEAD
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-=======
->>>>>>> e2d67ccc40400b2cf16a79f25fbbb6b629645400
 import java.util.Date;
 import java.util.Map;
 
@@ -230,7 +227,6 @@ public class ApiInterceptor implements HandlerInterceptor {
 	private String joinResStr(String errorCode) {
 		return "{\"errorCode\":" + errorCode + ",\"msg\":\"" + errorCodeMap.get(errorCode) + "\"}";
 	}
-<<<<<<< HEAD
 	
 
 	/**
@@ -268,6 +264,4 @@ public class ApiInterceptor implements HandlerInterceptor {
 		}
 		return ipAddress;
 	}
-=======
->>>>>>> e2d67ccc40400b2cf16a79f25fbbb6b629645400
 }

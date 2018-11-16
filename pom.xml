@@ -20,12 +20,6 @@
 		<springfox.version>2.8.0</springfox.version>
 	</properties>
 
-=======
-		<version>1.5.8.RELEASE</version>
-		<relativePath />
-	</parent>
-
->>>>>>> e2d67ccc40400b2cf16a79f25fbbb6b629645400
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -73,7 +67,6 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
-<<<<<<< HEAD
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
@@ -84,8 +77,6 @@
 			<artifactId>springfox-swagger2</artifactId>
 			<version>${springfox.version}</version>
 		</dependency>
-=======
->>>>>>> e2d67ccc40400b2cf16a79f25fbbb6b629645400
 	</dependencies>
 
 	<build>
